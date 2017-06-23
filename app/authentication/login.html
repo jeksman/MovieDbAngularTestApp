@@ -1,0 +1,34 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="alert alert-danger" ng-show="error">
+				<p ng-show="errorCode"><strong>{{errorCode}}</strong> - Login failed. Please check your credentials and try again</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6">
+			<form>
+				<div class="form-group">
+					<label for="username">Username:</label>
+					<input type="text" class="form-control" name="username" ng-required ng-model="user.username">
+				</div>
+				
+				<div class="form-group">
+					<label for="password">Password:</label>
+					<input type="password" class="form-control" name="password" ng-required ng-model="user.password">
+				</div>
+
+				<button class="btn btn-primary btn-lg pull-right" ng-click="login()">Login</button>
+			</form>
+		</div>
+
+		<div class="col-sm-6">
+			<h1>The Movie DB App</h1>
+			<p>This is an interface for The Movie DB built with AngularJS.</p>
+			<p>You don't have to be logged in to use this application but to get the most out of it you should <a href="https://www.themoviedb.org/account/signup?language=en">create a Movie DB account</a> if you don't already have one. This will allow you to rate movies and TV shows, add them to your list of favourites and create a watch list of movies and TV shows that you want to see.</p>
+			<p>Explore a little. Search for your favorite movie. Build a list of movies you want to watch.</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "MovieDbAngular",
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-route": "1.4.x",
+    "angular-loader": "1.4.x",
+    "angular-mocks": "~1.4.x",
+    "html5-boilerplate": "~4.3.0",
+    "angular-cookies": "~1.4.0",
+    "holderjs": "~2.8.0",
+    "angular-bootstrap": "~0.14.1",
+    "lodash": "~3.10.1",
+    "angular-animate": "~1.4.7",
+    "jquery": "~2.1.4",
+    "font-awesome": "~4.4.0",
+    "bootswatch": "~3.3.5",
+    "bootstrap-sass": "~3.3.5"
+  }
+}

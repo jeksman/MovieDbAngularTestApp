@@ -1,0 +1,23 @@
+.person-profile {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width:$screen-xxs-max) {
+  .form-movie-filter {
+    text-align: right;
+  }
+}
+
+.form-movie-filter {
+
+  .form-group {
+    display: inline-block;
+
+    input {
+      width: 100%;
+    }
+  }
+
+}
